@@ -56,15 +56,21 @@ Acesse [aqui](https://psiqueer.onrender.com/minha-rota-de-documentacao/#/) a doc
   |         |- 📄 psiRoutes.js    
   |    |- 📄 app.js   
   |- 📁 Swagger    
-  |         |- 📄 swagger_output.json           
-  |           
+  |         |- 📄 swagger_output.json                 
   |-  📄 .env
-  |-  📄 .env.example 
+  
+  |-  📄 .env.example
+
   |-  📄 .gitignore 
-  |-  📄 package-lock.json   
+
+  |-  📄 package-lock.json  
+
   |-  📄 pakage.json 
+
   |-  📄 README.md 
+
   |-  📄 server.js
+
   |-  📄 Swagger.js
     
   
