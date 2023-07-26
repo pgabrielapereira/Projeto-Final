@@ -25,7 +25,7 @@ Na Schema com CRUD completo, é possível cadastrar, listar, buscar por localiza
 | PATCH  | /:id                 | Altera informações do cadastro do profissional     |   200  | 
 | DELETE | /:id                 | Remove um profissional por ID                    |   200  |
 
-Acesse [aqui] (https://psiqueer.onrender.com/minha-rota-de-documentacao/#/)a documentação. 
+Acesse [aqui](https://psiqueer.onrender.com/minha-rota-de-documentacao/#/) a documentação. 
 
 ## Arquitetura MVC
 
@@ -84,4 +84,4 @@ Insta:
 
 
 
-Visualize a apresentação do [Projeto Psiqueer] (https://www.canva.com/design/DAFpwtuXbsk/6B4POaEjpmGGrvsD8IEgcg/view?utm_content=DAFpwtuXbsk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+Visualize a apresentação do [Projeto Psiqueer](https://www.canva.com/design/DAFpwtuXbsk/6B4POaEjpmGGrvsD8IEgcg/view?utm_content=DAFpwtuXbsk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
