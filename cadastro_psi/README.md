@@ -8,11 +8,11 @@ Esta API consiste em um armazenamento de profissionais da área da Psicologia, q
 
 ## Mais sobre a API Psiqueer 
 
-Sabemos que, mesmo hoje com acesso a informação e em um mundo globalizado, algumas pessoas ainda tem muita dificuldade em acessar alguns direitos básicos, como o cuidado com a saúde, por exemplo. Posto isso, o serviço de psicologia ainda não se tornou algo comum e que todos podem usufruir, principalmente os cidadãos de alguns recortes sociais, tais quais como gênero, cor, religião, renda, sexualidade ...
+Sabemos que, mesmo hoje com acesso a informação e em um mundo globalizado, algumas pessoas ainda tem muita dificuldade em acessar alguns direitos básicos, como o cuidado com a saúde, por exemplo. Posto isso, o serviço de psicologia ainda não se tornou algo comum e que todos podem usufruir, principalmente a população de camadas sociais mais invisíveis.
 
-Pensando nisso a API Psiqueer foi desenvolvida com o intuito de cadastrar e armazenar os dados de profissionais de psicologia que tenham seu trabalho voltado em atender o público LGBTQIA+.
+Pensando nisso, a API Psiqueer foi desenvolvida com o intuito de cadastrar e armazenar os dados de profissionais da área de psicologia que tenham seu trabalho voltado em atender o público LGBTQIA+.
 
-O nome Psiqueer é um trocadilho juntando os termos Psique ("Psique era, entre os antigos gregos, um conceito que definia o auto, abrangendo as ideias modernas de alma, ego, mente e espírito".) e o termo queer, termo guarda-chuva da língua inglesa para minorias sexuais e de género, ou seja, que não são heterossexuais ou não são cisgénero. Originalmente significando "estranho" ou "peculiar", queer era usado pejorativamente contra aqueles com desejos ou relações homossexuais no final do século XIX.
+O nome Psiqueer é um trocadilho juntando os termos Psique que seria alma, e o termo guarda-chuva queer, que depois de ter sido muito utilizado no sentido pejorativo, hoje abarcam as minorias no sentido de sexualidade e gênero , ou seja, pessoas que não são heterossexuais ou não são cisgenero. 
 
 Através da Schema, que possui CRUD completo, é possível cadastrar, listar, buscar por localização e fazer alterações nos dados de cadastro.
 
@@ -42,37 +42,32 @@ Acesse [aqui](https://psiqueer.onrender.com/minha-rota-de-documentacao/#/) a doc
 ## Arquitetura MVC
 
 
-  📁 Projeto-Final
-  |       
-  |-  📁 assets
-  |-  📁 src  
-  |    |- 📁 controller
-  |         |- 📄 psiController.js  
-  |    |- 📁 database 
-            |- 📄 dbconnect.js    
+ 
+  📁 Projeto_Final          
+  |- 📁 cadastro_psi            
+  |- 📁 assets          
+  |- 📁 src  
+  |    |- 📁 controller     
+  |         |- 📄 consultorioController.js  
+  |    |- 📁 database           
+  |- 📄 dbconnect.js    
   |    |- 📁 models  
-  |         |- 📄 psiModels.js  
+  |         |- 📄 consultoriosModel.js  
   |    |- 📁 routes  
-  |         |- 📄 psiRoutes.js    
+  |         |- 📄 consultoriosRoute.js    
   |    |- 📄 app.js   
   |- 📁 Swagger    
-  |         |- 📄 swagger_output.json                 
-  |-  📄 .env
-  
-  |-  📄 .env.example
-
-  |-  📄 .gitignore 
-
-  |-  📄 package-lock.json  
-
-  |-  📄 pakage.json 
-
-  |-  📄 README.md 
-
-  |-  📄 server.js
-
-  |-  📄 Swagger.js
+  |         |- 📄 swagger_output.json           
+  |-  📄 .env                           
+  |-  📄 .env.example                                                                            
+  |-  📄 .gitignore                 
+  |-  📄 package-lock.json                  
+  |-  📄 pakage.json                
+  |-  📄 README.md                      
+  |-  📄 server.js                      
+  |-  📄 Swagger.js                             
     
+  
   
 ## Banco de dados
 Para esta aplicação, utilizei o MongoAtlas DB em conjunto com a dependência mongoose.
@@ -83,7 +78,6 @@ Para esta aplicação, utilizei o MongoAtlas DB em conjunto com a dependência m
 
 [Insta](https://www.instagram.com/p.gabrielapereira/)
 
-Fontes consultadas: Wikipédia
  
 Visualize a apresentação do [Projeto Psiqueer](https://www.canva.com/design/DAFpwtuXbsk/6B4POaEjpmGGrvsD8IEgcg/view?utm_content=DAFpwtuXbsk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
